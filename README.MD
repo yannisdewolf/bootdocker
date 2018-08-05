@@ -1,20 +1,20 @@
-##Docker files
+## Docker files
 **Dockerfile.server**: configuration for docker for this service
 
 **docker-compose.yml**: configuration for all the containers to start
 
 
-##Build and run docker image
+## Build and run docker image
 
 From root directory of the project:
 
-###Automated
+### Automated
 
 `./build.sh`
 
 This script builds the project and runs the container in a daemon 
 
-###Manually
+### Manually
 
 #### Build java source
 `cd demodocker`
