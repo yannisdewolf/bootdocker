@@ -6,7 +6,15 @@
 
 ##Build and run docker image
 
-From current directory:
+From root directory of the project:
+
+###Automated
+
+`./build.sh`
+
+This script builds the project and runs the container in a daemon 
+
+###Manually
 
 #### Build java source
 `cd demodocker`
