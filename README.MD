@@ -14,10 +14,14 @@ From current directory:
 ```
 mvn package spring-boot:repackage
 
-cp target/demodocker-0.0.1-SNAPSHOT.jar ../files/javaserver.jar
+cp target/demodocker-0.0.1-SNAPSHOT.jar ../docker/files/javaserver.jar
 ```
 
 #### start docker compose
+
+**move to directory** `cd docker`
+
+**compose**
 `
 docker-compose up --build
 `

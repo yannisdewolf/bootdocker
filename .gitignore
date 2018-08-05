@@ -1,2 +1,2 @@
 .DS_Store
-files/javaserver.jar
+**/files/javaserver.jar
