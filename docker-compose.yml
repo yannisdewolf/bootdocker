@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  javaserver:
+    container_name: javaserver
+    build:
+      context: .
+      dockerfile: Dockerfile.server
+    image: javaserver:latest
+    ports:
+      - 8888:8080
+    logging:
+      driver: json-file
