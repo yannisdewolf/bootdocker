@@ -4,4 +4,3 @@ COPY files/javaserver.jar /opt/javaserver/lib/
 ENTRYPOINT ["/usr/bin/java"]
 CMD ["-jar", "/opt/javaserver/lib/javaserver.jar"]
 VOLUME /var/lib/javaserver
-EXPOSE 8888
